@@ -8,14 +8,6 @@
   grid-row: 1;
 }
 
-body:hover::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.3);
-  z-index: 1;
-  grid-row: 1;
-  grid-column: 1;
-}
-
 .page__heading {
   justify-self: center;
   text-transform: uppercase;
