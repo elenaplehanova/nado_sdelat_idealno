@@ -21,15 +21,12 @@
   width: fit-content;
   letter-spacing: 4px;
 }
-
-.text-right {
-  margin-left: 50px;
+.page__heading:hover {
+  color: #4c4c4c;
 }
-
 .page__heading::after {
   content: "*";
 }
-
 .page__heading:hover::before {
   position: absolute;
   top: 180px;
@@ -41,7 +38,7 @@
   text-transform: none;
   text-align: start;
   padding: 36px 44px;
-  background-color: aliceblue;
+  background-color: #fff;
   border: 2px solid black;
   border-radius: 20px;
   z-index: 2;
